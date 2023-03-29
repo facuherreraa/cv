@@ -5,4 +5,74 @@
 }
 body{
     background-color:rgba(61, 61, 82, 0.322);
+    
+}
+header h1{
+    font-size:3rem;
+    justify-content: center;
+    display: flex;
+}
+header .foto{
+    position: 40px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+section#hero{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section#hero h1{
+    font-size: 2rem;
+}
+section#hero ul li{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: bisque;
+}
+section#project ol li p{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.edu{
+    border: 3px solid lightgreen;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border-radius: 10px;
+}
+.edu img{
+    width: 100%;
+}
+.edu{background-color: whitesmoke;}
+section#exp{
+    font-size: 1.5rem;
+    flex-direction: column;
+    margin-top: 50px;
+}
+section#comp{
+    font-size: 1.5rem;
+    flex-direction: column;
+    margin-top: 50px;
+}
+h2{
+    font-size: 2rem;
+    margin-top: 20px;
+    justify-content:center;
+}
+section#contact{
+    position: 40px;
+    padding: auto;
+    justify-content: center;
+}
 }
