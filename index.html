@@ -9,21 +9,33 @@
 </head>
 <body>
     <header>
-        <h1>Curriculum Vitae Facundo Herrera</h1>
-        <img src="D:\cv\ID.jpg" alt="foto">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+        
+       
+        <ul class="menu__box">
+            <li><a href="index.html" class="animated-link">datos personales</a></li>
+            <li><a href="estudios.html" class="animated-link">estudios</a></li>
+            <li><a href="competencia.html" class="animated-link">competencia</a></li>
+            <li><a href="experiencialaboral.html" class="animated-link">experiencia laboral</a></li>
+        </ul>
+        
+          </div>
     </header>
  <main>
     <section id="hero">
-            <h1>Facundo Herrera</h1>
-            <ul>
-                <li><a href="index.html">datos personales</a></li>
-                <li><a href="estudios.html">estudios</a></li>
-                <li><a href="competencia.html">competencia</a></li>
-                <li><a href="experiencialaboral.html">experiencia laboral</a></li>
-            </ul>
-
+           <div> 
+                <h1>Facundo Herrera</h1>
+                <h2>Curriculum Vitae</h2>
+            </div>
+                <div>
+                    <img src="./imagenes/cara2.jpg" alt="foto">
+                </div>
         </section>
-     <section id="projects"></section>
+    <section id="projects">
         <h2>datos personales </h2>
         <ol>
             <li><p>10/09/2004(18 años)</p></li>
@@ -32,6 +44,7 @@
             <li><p>telefono:(54)11 5744-7040</p></li>
             <li><p>resido en San Antonio de Padu,Buenos Aires</p></li>
         </ol>
+    </section>  
      <section id="contact">
         <h2>contacta conmigo</h2>
         <form>
@@ -52,6 +65,6 @@
           </form>  
         </section>
    </main>
-    <footer></footer>
+    <footer><p> Todos los derechos reservados 2023</p></footer>
 </body>
 </html>
