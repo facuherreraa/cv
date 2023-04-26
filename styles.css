@@ -133,6 +133,11 @@ section#contact{
     border: #fff;
     box-sizing: border-box;
 }
+.form{
+  padding-bottom: auto;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
 .animated-link {
     color: #121314;
     position: relative;
